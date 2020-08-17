@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class = "parents">
+        <div class="child">자식1</div>
+        <div class="child">자식2</div>
+        <div class="child">자식3</div>
+    </div>
+    <div>
+        Float는 Block 요소를 가로배치를 하게 하기 위해서 사용
+
+block의 특징은 길막인데, (Box 폴더 확인) 그런 특징을 해결해준다.
+
+float의 특징을 살펴보자!
+
+첫 번째로 float를 사용한 요소는 붕~~ 뜨게 된다.
+그럼 float를 가지고 있던 부모 요소는 float을 사용한 요소를 인식못하여, 빈공간처럼 사용한다.
+
+두 번째로 Inline, Inline Block, Block에게 float 요소를 주면 전부 Block 박스가 된다!
+그렇게되면 float 요소는 모두 width, height, margin-top 등등을 사용할 수 있다.
+
+세 번째로 float을 줬을 때 변한 block은 길막을 하지 못한다.
+=> width를 설정 안한다면, 자신의 자식요소의 width 만큼만 width를 가지게 되고, 
+   width를 설정 하면, 남은 공간에 margin을 자동 할당하던 것이 더이상 생기지 않는다.
+
+길막이란? 
+width를 설정안하면 부모의 width 100%를 가지고, width를 따로 지정하면 남은 부분은 margin으로 전부 채워 다른 요소가 오지 못하게 막는 특징!
+
+만약 모든 요소를 float로 설정하면 부모요소의 height는 0이 된다* (자식이 모두 붕뜨니깐)
+
+이것은 다른 html 요소에 엉청난 붕괴를 일으킨다.
+
+네 번째로 text 등의 inline 요소는 float의 존재를 인식한다!?
+위 붕괴를 일으킨다고 했는데, 부모요소의 height가 0이되면 부모의 형제 요소가 부모요소의 자리를 
+침범한다. 여기까진 문제가 없다! 하지만 text와 같은 요소들은 height가 0이여도 존재를 인식하기 때문에 그 공간만큼 자리를 남기고 생성되어 와장창하고 깨진다!
+    </div>
+</body>
+</html>

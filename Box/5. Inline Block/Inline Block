@@ -1,0 +1,8 @@
+Inline-Block은 말 그대로 inline과 block의 특징을 가지고 있다.
+
+inline은 흐름따라 작성이되어 가로 배치가 기본적으로 작용이 되었지만, 
+width, height, 기타 top, bottom을 사용하지 못하는 단점이 있었고
+
+block은 영역 잡기가 편했지만, 가로 배치가 어려웠다는 단점이 있다.
+
+Inline-block은 inline에 block의 특징을 가지고 있다!

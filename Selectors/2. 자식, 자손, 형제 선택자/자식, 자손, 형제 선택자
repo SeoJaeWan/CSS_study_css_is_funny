@@ -1,0 +1,45 @@
+여기선 Child, Descendant, Sibling Combinators 를 배운덩
+
+먼저 자식, 자손 형제 선택자란?
+
+<section>
+    <h1>Heading</h1>
+    <ul>
+        <li></li>
+        <li></li>
+    </ul>
+</section>
+
+section 태그와 ul 태그와의 관계는 자식 관계이다.
+scction 태그와 li 태그와의 관계는 자손 관계이다.
+            => 자손 관계는 자식 관계를 모두 포함한다. 
+            
+h1 태그와 ul 태그와의 관계는 형제 관계이다.
+
+자식(Child) 관계
+=> 자식 관계는 
+    parent > child로 나타낸다.
+    
+자식(Descendant) 관계
+=> 자식 관계는 
+    parent  descendant로 나타낸다. ( 헐 내가 지금까지 쓴게 자손 선택자 ;; 자식인줄;;;)
+
+형제(Sibling) 관계
+=> 형제 관계는 
+    parent + sibling
+    parent ~ sibling 이렇게 2개가 있다.
+
+    <li>1</li>
+    <li class = "active">2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li> 와 같이 정의되어 있을 때 
+    
+    active 다음의 li에게 스타일을 주기 위해서
+    .active ~ li {} 이렇게 사용할 수 있다.
+    
+    active 다음의 li 하나에게 스타일을 주기 위해선
+    .active + li {} 이렇게 사용할 수 있다.
+    

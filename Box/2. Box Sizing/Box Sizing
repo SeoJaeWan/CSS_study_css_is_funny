@@ -1,0 +1,21 @@
+div 박스에 width: 480, height: 480 을 지정해주고 
+padding: 40px 0 0 50px 을 줬을 때 실제 사이즈는 
+520 530이 된다. ?!
+
+이것을 해결하기 위해 box-sizing을 사용한다.
+
+box-sizing은 content-box와 border-box 값을 가질 수 있다.
+default로 모든 box-sizing은 content-box로 지정되어 있다.
+
+content-box는 width와 height 값이 해당 content만의 값이 된다.
+즉, padding으로 준 값은 content 영역이 아니기때문에 +가 된다.
+
+border-box는 위와 같은 역겨운 상황을 해결하기 위해서 생긴것으로 
+이것은 content영역만 포함하는 것이 아닌 border 기준으로 된다.
+
+그래서 앵간하면 처음 작업할 때 
+
+*{
+    box-sizing: border-box
+}
+로 지정하고 시작한다.

@@ -1,0 +1,17 @@
+body{
+    font-family:  sans-serif;
+}
+
+.box {
+    width:480px;
+    height:480px;
+    
+    background-color: hotpink;
+    color:white;
+    
+    margin:0 auto;
+    
+    padding: 40px 0 0 50px;
+    
+    box-sizing: border-box;
+}

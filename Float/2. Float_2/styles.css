@@ -1,0 +1,35 @@
+.parent_1,
+.parent_2,
+.parent_3 {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.child_1,
+.child_2,
+.child_3 {
+    float: left;
+
+    width: 200px;
+    height: 110px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 90px;
+}
+
+.parent_1 {
+    overflow: hidden;
+}
+
+.other {
+    clear: left;
+}
+
+.parent_3::after{
+    content:"";
+    display: block;
+    
+    clear:left;
+    
+}

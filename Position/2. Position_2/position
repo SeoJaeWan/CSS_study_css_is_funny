@@ -1,0 +1,20 @@
+이번엔 absolute와 fixed 를 배울 것이다.
+
+absolute의 특징은 float와 유사한 부분이 있는데,
+첫 번째로 absolute를 할당하면 block으로 display가 바뀌는 점이 있다.
+두 번째로 그렇게 바뀐 block은 길막을 하지 못한다.
+세 번째로 float처럼 부모요소가 찾을 수 없게된다 ㅋㅋㅋ
+
+하지만 차이점이 있다!
+float는 다른 텍스트나 이런게 인식해서 화면이 난리가 났지만 absolute는 그딴게 없다.
+그냥 공중에 붕 뜨기 때문에 뒤에 텍스트가 생긴다 ㅎㅎ
+
+이러한 absolute는 자기가 원하는 기준점을 지맘대로 결정한다!
+바로바로 기준점을 선정하는 기준이 position이 static이 아닌 요소를 기준점으로 한다!
+
+fixed는 absolute와 특징이 대부분 비슷하다.
+다른점은 fixed는 기준점으로 viewport를 기준으로 한다.
+=> 이런 특징은 스크롤을 사용했을 때도 viewport를 기준으로 하기 때문에 따라가면서 이동한다.
+
+아 그리고 absolute와 fixed 는 자신의 자식의 width 값만 가지고 그 외엔 전부 버리는 특징도 있다.
+이런 특징은 float와 같지? ㅋㅋ

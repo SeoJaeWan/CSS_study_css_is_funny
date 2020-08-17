@@ -1,0 +1,35 @@
+What the Box??
+
+Box는 html에서 각각 요소들이 CSS로 표현될 때 Box로 표현된다!
+이러한 박스가 일정한 형태로 구성된 것을 Box Model이라고 한다.
+
+Box Model은 
+Content, Padding, Border, Margin로 층별로 구성되어 있다.
+
+Content
+=> 가로는 width, 세로는 height로 나타낸다.
+
+Padding 
+=> 안쪽 여백, Condent와 Border 사이의 공간(기둥 뒤에 공간!)을 나타낸다.
+
+Border
+=> Content의 태두리를 나타낸다.
+=> border: 굵기 스타일 색상  이렇게 명시를 해줘야 한다.
+=> border: none; 을 사용하면 border 속성을 없앨 수 있다.
+=> border-radius를 사용하면 모서리를 둥글둥글하게 만들 수 있다.
+
+
+Margin
+=> 바깥 여백, 요소와 요소 사이 간격을 만들 때 사용한다.
+
+속기형?! (빠르게 쓰기)
+top right bottom left 순서대로 padding, margin 등등에 술 수 있다.
+
+=> padding : 10px(top), 20px(right), 30px(bottom), 40px(left);
+   이렇게 간단하게 4방향을 적용할 수 있다.
+
+=> padding : 10px(top,bottom), 20px(right,left) 
+   이렇게 2개를 입력하면 이렇게 입력된다.
+   
+=> padding : 10px(top), 20px(right,left), 30px(bottom);
+   이렇게도 된다 이마리야!

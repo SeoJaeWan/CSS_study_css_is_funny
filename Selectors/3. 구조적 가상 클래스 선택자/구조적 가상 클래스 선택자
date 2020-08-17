@@ -1,0 +1,29 @@
+가상 클래스?!
+=> 특정 상태나 특정 조건을 만족할 때 사용할 수 있는 클래스이다!
+
+:first-child, :last-child, :nth-child 3개를 배운다!
+
+<section>
+    <h1>Heading</h1>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</section>
+
+first-child
+=> 여러 개의 li 중 첫 번째 li만 선택하여 스타일을 적용하고 싶을 경우 
+    li:first-child를 사용하여 적용할 수 있다.
+    
+last-child 
+=> 마찬가지고 여러 개의 li 중 마지막 li만 스타일을 적용하고 싶은 경우
+    li:last-child를 사용할 수 있다.
+
+nth-child
+=> 3번째 li를 스타일링 하고 싶은 경우 li:nth-child(3)을 사용하여 적용할 수 있다.
+=> 혹은 () 안에 2n을 입력하면 짝수, 2n-1은 홀수를 나타낸다! lol!!!ㅋ
+

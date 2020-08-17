@@ -1,0 +1,15 @@
+.parents {
+    margin:0 auto;
+    width:400px;
+}
+
+.child{
+    float: left;
+    
+    width: 200px;
+    height: 110px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding-top:90px;
+}

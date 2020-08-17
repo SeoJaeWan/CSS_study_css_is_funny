@@ -1,0 +1,6 @@
+Inline Box는 Block 과 완전 정반대로 남은 width를 모두 채워서 사용하는 방식
+
+Inline Box의 특징을 알아보자면,
+1. width, height, padding-top, padding-bottom, border-top, border-bottom,
+   margin-top, margin-bottom을 사용할 수 없다. 
+   => 위 요소들은 Inline의 흐름을 방해하는 요소들이기 때문이다.

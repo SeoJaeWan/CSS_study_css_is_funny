@@ -1,0 +1,21 @@
+여기선 Type Selecter, Class Selecter, ID Selecter 를 공부한당
+
+Type Selecter 
+=> HTML 태그 셀렉터이다. 즉 태그 자체를 직접 지칭
+=> 
+    p {} 같은 형식
+
+Class Selecter
+=> 요소(태그) 의 class의 셀렉터
+=> 한 태그에 여러 개의 class를 정의 가능하다.
+=>
+    <div class = "Box-1 Box-2 Box-3"></div>
+    
+    .Box-1  or .Box-1.Box-2 or Box-1.Box-2.Box-3
+    
+    위와 같이 클래스 여러개를 공백없이 사용하면 좀더 정확하게 해당 클래스를 선택할 수 있다.
+    => 하지만 만약 공백이 있다면? 자식의 class를 선택하는 것이 된다.
+    => 즉 .Box-1.Box-2는 Box-1이자 Box-2를 가진 태그를 선택하는 것이다.
+
+ID Selecter
+=> 요소의 Id의 셀렉터이다. 
